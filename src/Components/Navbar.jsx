@@ -22,6 +22,7 @@ const Language = styled.span`
 	font-weight: 300;
 	margin-left: 20px;
 	padding-right: 10px;
+	cursor: pointer;
 `;
 const SearchContainer = styled.div`
 	display: flex;
