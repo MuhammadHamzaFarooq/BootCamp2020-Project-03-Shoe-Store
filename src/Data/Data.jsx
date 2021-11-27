@@ -1,18 +1,20 @@
 export const SliderItems = [
-  {
-      id : 0 ,
+    {
+        id : 0 ,
+        img : 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
+        title:'WINTER SALE!',
+        desc : 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe expedita, aliquam aut,officia quaerat!',
+        bg:'blanchedalmond'
+    },
+  
+    {
+      id : 1 ,
       img : 'https://images.unsplash.com/photo-1608231387042-66d1773070a5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80',
       title:'SUMMER SALE!',
       desc : 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe expedita, aliquam aut,officia quaerat!',
       bg:'#e0dddd'
   },
-  {
-      id : 1 ,
-      img : 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
-      title:'WINTER SALE!',
-      desc : 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe expedita, aliquam aut,officia quaerat!',
-      bg:'blanchedalmond'
-  },
+ 
   {
       id : 2 ,
       img : 'https://images.unsplash.com/photo-1614689540269-7f9315660d59?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTd8fHNob2V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60',

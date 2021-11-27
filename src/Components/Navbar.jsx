@@ -18,8 +18,8 @@ const Left = styled.div`
 `;
 
 const Language = styled.span`
-	font-size: 20px;
-	font-weight: 300;
+	font-size: 40px;
+	font-weight: 500;
 	margin-left: 20px;
 	padding-right: 10px;
 	cursor: pointer;
@@ -34,6 +34,7 @@ const Input = styled.input`
 	border: none;
 	padding: 10px 10px;
 	outline: none;
+	font-size: 15px;
 `;
 
 const Center = styled.div`
@@ -44,7 +45,7 @@ const Center = styled.div`
 	align-items: center;
 `;
 const Logo = styled.h1`
-	font-size: 35px;
+	font-size: 45px;
 	font-weight: 700;
 `;
 
@@ -72,19 +73,19 @@ const Navbar = () => {
 	return (
 		<Navigation>
 			<Left>
-				<Language>EN</Language>
+				<Language>EN </Language>
 				<SearchContainer>
 					<Input />
 					<SearchIcon />
 				</SearchContainer>
 			</Left>
 			<Center>
-				<Logo>Shoe Store</Logo>
+				<Logo>SHOE STORE</Logo>
 			</Center>
 			<Right>
 				<MenuItem>
 					<Item>Home</Item>
-					<Item>About</Item>
+					<Item>Product</Item>
 					<Item>
 						<Badge badgeContent={4} color="success">
 							<AddShoppingCartOutlinedIcon />
