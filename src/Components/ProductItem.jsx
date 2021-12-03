@@ -80,10 +80,11 @@ const ProductItem = ({ item }) => {
 							}}
 						/>
 					</Stars>
-					<Title>{item.title}</Title>
+					<Title>{item.name}</Title>
 					<Price>{item.price}</Price>
 					<Button>Add to Cart</Button>
 				</InfoContainer>
+			
 			</Wrapper>
 		</Container>
 	);

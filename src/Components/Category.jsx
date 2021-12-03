@@ -1,34 +1,37 @@
 import styled from 'styled-components';
-import React,{useState} from 'react';
+import React, { useState } from 'react';
 import ToggleButton from '@mui/material/ToggleButton';
-import ToggleButtonGroup from '@mui/material/ToggleButtonGroup'
+import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
+import Products from '../Components/Products'
 
 const Container = styled.div`
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      margin: 20px 0px;
-      padding: 20px 0px;    
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: 20px 0px;
+	padding: 20px 0px;
 `;
 
 const Title = styled.h1`
- font-size: 4rem;
- font-weight: bold;
- margin-bottom: 30px;
- border-bottom: 2px solid gray;
-
+	font-size: 4rem;
+	font-weight: bold;
+	margin-bottom: 30px;
+	border-bottom: 2px solid gray;
 `;
 
 const Category = () => {
-    const [alignment, setAlignment] = useState('adidas');
+	const [ alignment, setAlignment ] = useState('adidas');
 
-    const handleChange = (event, newAlignment) => {
-        setAlignment(newAlignment);
-      };
+	const handleChange = (event, newAlignment) => {
+		setAlignment(newAlignment);
+	};
+	
 
 	return (
+
+            <>
 		<Container>
 			<Title>CATEGORIES</Title>
 			<ToggleButtonGroup color="primary" value={alignment} exclusive onChange={handleChange}>
@@ -38,6 +41,8 @@ const Category = () => {
 				<ToggleButton value="underarmour">UNDERARMOUR</ToggleButton>
 			</ToggleButtonGroup>
 		</Container>
+            <Products alignment={alignment} />
+            </>
 	);
 };
 

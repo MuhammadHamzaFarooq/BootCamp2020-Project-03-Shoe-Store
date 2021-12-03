@@ -77,7 +77,7 @@ const Footer = () => {
 	return (
 		<Container>
 			<Left>
-				<Logo>LAMA</Logo>
+				<Logo>M Hamza Farooq</Logo>
 				<Desc>
 					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero quisquam incidunt doloremque iusto
 					a quod, ullam magni. Est quasi sequi quidem placeat.
